@@ -1,0 +1,38 @@
+.select-genre-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  position: obsolute;
+}
+
+.genre-title {
+  margin-left: 20px;
+  color: white;
+  margin-right: 40px;
+}
+
+.genre-dropdown {
+  display: inline-block;
+}
+
+.genre-select {
+  padding: 5px;
+  background-color: #221f1f;
+  color: white;
+}
+
+.icon {
+  color: grey;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+@media (max-width: 400px) {
+  .icons-container {
+    position: static;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
